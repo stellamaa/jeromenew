@@ -16,16 +16,16 @@ function App() {
   // Shuffle images array on component mount
   useEffect(() => {
     const images = [
-      '/assets/img1.jpeg',
-      '/assets/img2.jpeg',
-      '/assets/img3.jpeg',
-      '/assets/img4.jpeg',
-      '/assets/img5.png',
-      '/assets/img6.png',
-      '/assets/img7.png',
-      '/assets/img8.png',
-      '/assets/img9.png',
-      '/assets/img10.png',
+      `${process.env.PUBLIC_URL}/assets/img1.jpeg`,
+      `${process.env.PUBLIC_URL}/assets/img2.jpeg`,
+      `${process.env.PUBLIC_URL}/assets/img3.jpeg`,
+      `${process.env.PUBLIC_URL}/assets/img4.jpeg`,
+      `${process.env.PUBLIC_URL}/assets/img5.png`,
+      `${process.env.PUBLIC_URL}/assets/img6.png`,
+      `${process.env.PUBLIC_URL}/assets/img7.png`,
+      `${process.env.PUBLIC_URL}/assets/img8.png`,
+      `${process.env.PUBLIC_URL}/assets/img9.png`,
+      `${process.env.PUBLIC_URL}/assets/img10.png`,
     ];
     // Shuffle array
     const shuffled = [...images].sort(() => Math.random() - 0.5);
