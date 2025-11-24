@@ -283,7 +283,7 @@ icon {
   }
   
   .upcoming-content {
-    padding-top: 100px;
+    padding-top: 10px;
     max-width: calc(100vw - 160px);
     width: auto;
   }
