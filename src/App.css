@@ -14,7 +14,7 @@ body {
   color: black;
 }
 icon {
-  
+
 }
 
 .App {
@@ -228,6 +228,10 @@ icon {
 }
 
 @media (max-width: 768px) {
+
+  body {
+    overflow: hidden;
+  }
   .container {
     flex-direction: column;
     padding: 10px;
@@ -326,7 +330,16 @@ icon {
     margin: 0 -10px;
   }
   .decorative-letters {
-    bottom: 3%;
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 1;
   }
   .bystella {
     display: none; /* Hidden by default on mobile */
