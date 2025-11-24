@@ -35,6 +35,8 @@ icon {
 .content-section {
   flex: 1;
   max-width: 600px;
+  position: relative;
+  z-index: 10;
 }
 
 .about-content,
@@ -138,6 +140,7 @@ icon {
   gap: 8px;
   width: 120px;
   height: 90px;
+  z-index: 1;
 }
 
 .grid-image {
@@ -267,6 +270,7 @@ icon {
    
   }
   .music-content p, .about-content p, .upcoming-content p {
+    z-index: 10;
     font-size: 0.9rem;
   }
   .about-content {
@@ -286,6 +290,7 @@ icon {
   
   .grid-placeholder {
     position: fixed !important;
+    z-index: 5 !important;
     bottom: 160px !important;
     right: 20px !important;
     left: auto !important;
@@ -331,7 +336,7 @@ icon {
   }
   .decorative-letters {
     position: fixed;
-    bottom: 40px;
+    bottom: 3px;
     left: 0;
     right: 0;
     height: auto;
