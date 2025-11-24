@@ -42,6 +42,9 @@ icon {
 .about-content,
 .upcoming-content{
   line-height: 0.8;
+  position: relative;
+  z-index: 20;
+  background-color: white;
 }
 .music-content {
     margin-left: 10px;
@@ -140,7 +143,7 @@ icon {
   gap: 8px;
   width: 120px;
   height: 90px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .grid-image {
