@@ -284,7 +284,8 @@ icon {
   
   .upcoming-content {
     padding-top: 100px;
-    
+    max-width: calc(100vw - 160px);
+    width: auto;
   }
   .upcoming-content p {
     line-height: 1.2;
