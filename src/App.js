@@ -104,18 +104,17 @@ function App() {
           
           {activeSection === 'upcoming' && (
             <div className="upcoming-content">
-              <p>Upcoming shows:</p>
-              <p>8/12/2023 Strangebrew - Bristol (supporting Scaler and Daniel Avery)</p>
-              <p>18/05/2024 Rough Trade - Bristol (supporting Haal)</p>
-              <p>06/06/2024 Shacklewell Arms - London (supporting Drahla)</p>
-              <p>07/06/2024 Dareshack - Bristol (supporting Drahla)</p>
-              <p>08/06/2024 Where Else? - Margate (supporting Drahla)</p>
-              <p>09/06/2024 Quarry - Liverpool (supporting Drahla)</p>
-              <p>10/06/2024 YES - Manchester (supporting Drahla)</p>
-              <p>12/06/2024 The Old Hairdressers - Glasgow (supporting Drahla)</p>
-              <p>13/06/2024 The Tin Music & Arts - Coventry (supporting Drahla)</p>
-              <p>27/08/2024 Exchange - Bristol (supporting Gnod)</p>
-              <p>24/01/2025 Shacklewell Arms - London</p>
+              <p>Recent shows:</p>
+             
+              <p>06.06.2024 Shacklewell Arms - London (supporting Drahla)</p>
+              <p>07.06.2024 Dareshack - Bristol (supporting Drahla)</p>
+              <p>08.06.2024 Where Else? - Margate (supporting Drahla)</p>
+              <p>09.06.2024 Quarry - Liverpool (supporting Drahla)</p>
+              <p>10.06.2024 YES - Manchester (supporting Drahla)</p>
+              <p>12.06.2024 The Old Hairdressers - Glasgow (supporting Drahla)</p>
+              <p>13.06.2024 The Tin Music & Arts - Coventry (supporting Drahla)</p>
+              <p>27.08.2024 Exchange - Bristol (supporting Gnod)</p>
+              <p>24.01.2025 Shacklewell Arms - London</p>
             </div>
           )}
           
@@ -123,9 +122,9 @@ function App() {
             <div className="music-content">
               <p>Music:</p>
               <p>→ <a href="https://weightedmyhand.bandcamp.com/album/if"> If  </a> - with Jackson Veil Panther(2025)</p>
-              <p>→ <a href="https://www.deliluh.com/jeromecollab?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnWXoRKrdVUfwt493SXpCy2SetOa1a5EfiOpJ65xc7fbV7PhQinkcu9e93KAw_aem_Bq-8FkII0fZp8RZqatZX2A"> Black Bomb / Year 2 </a> - with Deliluh (2025)</p>
+              <p>→ <a href="https://www.deliluh.com/jeromecollab?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnWXoRKrdVUfwt493SXpCy2SetOa1a5EfiOpJ65xc7fbV7PhQinkcu9e93KAw_aem_Bq-8FkII0fZp8RZqatZX2A"> Black Comb / Year 2 </a> - with Deliluh (2025)</p>
               <p>→ <a href="https://mapledeathrecords.bandcamp.com/track/wrists-free-feat-jerome"> Wrists Free </a>- with SabaSaba(2024)</p>
-              <p>→ <a href="https://mapledeathrecords.bandcamp.com/album/moving">moving</a> (2023)</p>
+              <p>→ <a href="https://mapledeathrecords.bandcamp.com/album/moving">Moving</a> (2023)</p>
               <p>→ <a href="https://accidentalmeetings.bandcamp.com/track/jerome-both-and-2"> Both/And </a> on AMF&F003 by Accidental Meetings (2022)</p>
               <p>→ <a href="https://mapledeathrecords.bandcamp.com/album/lp2">LP2</a> (2021)</p>
               <p>→ <a href="https://mapledeathrecords.bandcamp.com/album/moods">Moods</a> (2020)</p>
@@ -147,20 +146,6 @@ function App() {
                 <span className="radio-label">about</span>
               </label>
             </div>
-            
-            <div className="radio-item">
-              <label>
-                <input
-                  type="radio"
-                  name="section"
-                  value="upcoming"
-                  checked={activeSection === 'upcoming'}
-                  onChange={() => handleSectionChange('upcoming')}
-                />
-                <span className="radio-label">upcoming</span>
-              </label>
-            </div>
-
             <div className="radio-item">
               <label>
                 <input
@@ -172,8 +157,20 @@ function App() {
                 <span className="radio-label">music</span>
               </label>
             </div>
-          </div>
-          
+         
+            <div className="radio-item">
+              <label>
+                <input
+                  type="radio"
+                  name="section"
+                  value="upcoming"
+                  checked={activeSection === 'upcoming'}
+                  onChange={() => handleSectionChange('upcoming')}
+                />
+                <span className="radio-label">live</span>
+              </label>
+            </div>
+            </div>
           <div className="grid-placeholder">
             {shuffledImages.slice(0, 12).map((imageSrc, i) => (
               <img
