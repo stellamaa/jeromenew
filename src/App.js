@@ -121,13 +121,13 @@ function App() {
           {activeSection === 'music' && (
             <div className="music-content">
               <p>Music:</p>
-              <p>→ <a href="https://weightedmyhand.bandcamp.com/album/if"> If  </a> - with Jackson Veil Panther(2025)</p>
-              <p>→ <a href="https://www.deliluh.com/jeromecollab?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnWXoRKrdVUfwt493SXpCy2SetOa1a5EfiOpJ65xc7fbV7PhQinkcu9e93KAw_aem_Bq-8FkII0fZp8RZqatZX2A"> Black Comb / Year 2 </a> - with Deliluh (2025)</p>
-              <p>→ <a href="https://mapledeathrecords.bandcamp.com/track/wrists-free-feat-jerome"> Wrists Free </a>- with SabaSaba(2024)</p>
-              <p>→ <a href="https://mapledeathrecords.bandcamp.com/album/moving">Moving</a> (2023)</p>
-              <p>→ <a href="https://accidentalmeetings.bandcamp.com/track/jerome-both-and-2"> Both/And </a> on AMF&F003 by Accidental Meetings (2022)</p>
-              <p>→ <a href="https://mapledeathrecords.bandcamp.com/album/lp2">LP2</a> (2021)</p>
-              <p>→ <a href="https://mapledeathrecords.bandcamp.com/album/moods">Moods</a> (2020)</p>
+              <p>→ <a href="https://weightedmyhand.bandcamp.com/album/if" target="_blank"> If  </a> - with Jackson Veil Panther(2025)</p>
+              <p>→ <a href="https://www.deliluh.com/jeromecollab?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnWXoRKrdVUfwt493SXpCy2SetOa1a5EfiOpJ65xc7fbV7PhQinkcu9e93KAw_aem_Bq-8FkII0fZp8RZqatZX2A" target="_blank" > Black Comb / Year 2 </a> - with Deliluh (2025)</p>
+              <p>→ <a href="https://mapledeathrecords.bandcamp.com/track/wrists-free-feat-jerome" target="_blank" > Wrists Free </a>- with SabaSaba(2024)</p>
+              <p>→ <a href="https://mapledeathrecords.bandcamp.com/album/moving" target="_blank" >Moving</a> (2023)</p>
+              <p>→ <a href="https://accidentalmeetings.bandcamp.com/track/jerome-both-and-2" target="_blank" > Both/And </a> on AMF&F003 by Accidental Meetings (2022)</p>
+              <p>→ <a href="https://mapledeathrecords.bandcamp.com/album/lp2" target="_blank" >LP2</a> (2021)</p>
+              <p>→ <a href="https://mapledeathrecords.bandcamp.com/album/moods" target="_blank" >Moods</a> (2020)</p>
             </div>
           )}
         </div>
