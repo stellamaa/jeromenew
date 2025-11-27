@@ -188,7 +188,7 @@ function App() {
       
       <div className={`bystella ${activeSection === 'about' ? 'bystella-mobile-visible' : ''}`}>
         <div className="bystella-content">
-          <p>website by <a href="https://stellamathioudakis.com">stella</a></p>
+          <p>website by <a href="https://stellamathioudakis.com" target="_blank">stella</a></p>
         </div>
       </div>
       <div className="decorative-letters">
